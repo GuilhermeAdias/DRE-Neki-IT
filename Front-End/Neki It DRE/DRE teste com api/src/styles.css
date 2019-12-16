@@ -1,0 +1,72 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+title{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Definições da barra de navegação*/
+nav{
+    background: #2d939c;
+}
+
+/*Tabela Principal*/
+
+#tbprincipal{
+    background: lightgray;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/*Definições de rodapé*/
+
+footer{
+    background: #211f1f;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    background: white;
+    width: 80%;
+}
+
+.descricao{
+    color: white;
+    padding-top: 20px;
+}
+
+.copyright{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link_neki{
+    color:  white;
+}
+
+.link_neki:hover{
+    color: #2d939c;
+    text-decoration: none;
+}
+
+/*Imagens*/
+
+/*Definição da logo da barra de navegação*/
+.logo_nav{
+    height: 48.4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 80.5px;
+}
+
+/*Definição da logo do rodapé*/
+
+.logo_footer{
+    height: 100px;
+}

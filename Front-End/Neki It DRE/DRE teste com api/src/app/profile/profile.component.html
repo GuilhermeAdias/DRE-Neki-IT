@@ -1,0 +1,11 @@
+<h2>Profile</h2>
+
+<span>Contador: {{profiles.total_count}}</span><br>
+<span>Incomplete results: {{profiles.incomplete_results}}</span>
+
+<ul>
+  <li *ngFor="let item of profiles.items; let i=index;">
+    <span>{{item.login}}</span>
+  </li>
+</ul>
+
