@@ -6,23 +6,51 @@
 </nav>
 
 <!--Tabela Principal-->
+<br><br><br>
 
 <table id="tbprincipal" class="table table-bordered">
     <thead>
         <tr>
-            <th scope="col">Natureza</th>
+            <th scope="col">Naturezas</th>
             <th scope="col">Janeiro</th>
             <th scope="col">Fevereiro</th>
             <th scope="col">Março</th>
+            <th scope="col">Abril</th>
+            <th scope="col">Maio</th>
+            <th scope="col">Junho</th>
+            <th scope="col">Julho</th>
+            <th scope="col">Agosto</th>
+            <th scope="col">Setembro</th>
+            <th scope="col">Outubro</th>
+            <th scope="col">Novembro</th>
+            <th scope="col">Dezembro</th>
         </tr>
     </thead>
+
+
     <tbody>
         <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <div>
+                <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+                    <ngb-panel title="Receita Operacional Bruta">
+                        <ng-template ngbPanelContent>
+                            <th scope="row">Vendas de Produtos </th><br>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <th>Vendas de Produtos </th><br>
+                            <th>Vendas de Produtos </th><br>
+
+                        </ng-template>
+                    </ngb-panel>
+                </ngb-accordion>
+            </div>
+
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
         </tr>
+
         <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
@@ -37,16 +65,106 @@
     </tbody>
 </table>
 
+<br><br><br>
+
+
+
+
+
+
+<div>
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+                Vendas de Produtos <br> Vendas de Mercadorias <br> Prestação de Serviços <br>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+
+
+                <!-------------------Acordion com as naturezas----------------------->
+
+
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+                Vendas de Produtos <br> Vendas de Mercadorias <br> Prestação de Serviços <br>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+                Vendas de Produtos <br> Vendas de Mercadorias <br> Prestação de Serviços <br>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+                Vendas de Produtos <br> Vendas de Mercadorias <br> Prestação de Serviços <br>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+                Vendas de Produtos <br> Vendas de Mercadorias <br> Prestação de Serviços <br>
+            </ng-template>
+        </ngb-panel>
+
+
+
+
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span>&#9733; <b>Fancy</b> title &#9733;</span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="Disabled">
+            <ng-template ngbPanelContent>
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Rodapé -->
 
 <footer>
 
-    <p class="descricao">Programa WEB para a Desmostração do Resultado e Exercício (DRE), desenvolvido para uso interno.</p>
 
-    <hr>
+    <div>
 
-    <img class="logo_footer" src="../assets/Neki-It.png" alt="Logo Neki-It">
+        <p class="descricao">Programa WEB para a Desmostração do Resultado e Exercício (DRE), desenvolvido para uso interno.</p>
 
-    <p class="copyright">Copyright © 2020 | Todos os direitos reservados <a class="link_neki" href="https://neki-it.com.br/">NEKI-IT</a> | Desenvolvido por <a class="link_neki" href="https://neki-it.com.br/">NEKI-IT</a></p>
+        <hr>
+
+        <img class="logo_footer" src="../assets/Neki-It.png" alt="Logo Neki-It">
+
+        <div class="copyright"> Copyright © 2020 | Todos os direitos reservados <a class="link_neki" href="https://neki-it.com.br/">NEKI-IT</a> | Desenvolvido por <a class="link_neki" href="https://neki-it.com.br/">NEKI-IT</a></div>
+
+    </div>
+
 
 </footer>
