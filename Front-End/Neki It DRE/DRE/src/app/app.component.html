@@ -27,42 +27,22 @@
         </tr>
     </thead>
 
-
     <tbody>
-        <tr>
-            <div>
-                <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
-                    <ngb-panel title="Receita Operacional Bruta">
-                        <ng-template ngbPanelContent>
-                            <th scope="row">Vendas de Produtos </th><br>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <th>Vendas de Produtos </th><br>
-                            <th>Vendas de Produtos </th><br>
 
-                        </ng-template>
-                    </ngb-panel>
-                </ngb-accordion>
-            </div>
-
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-
-        <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Larry the Bird</td>
-            <td>@twitter</td>
-        </tr>
     </tbody>
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel title="Receita Operacional Bruta">
+            <ng-template ngbPanelContent>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
 </table>
 
 <br><br><br>
